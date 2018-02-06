@@ -1,20 +1,11 @@
 ## Smart Car Parking System using Deep Learning
 
-* Contract
-Contains a copy of study contract signed
-
 * Data
 Contains datasets colllected and created. Required to run the CNNs
 * Deep Learning
 Contains python notebooks demostrating the appication of vgg16, vgg19, resnet50 and inception_v3 to identify empty car parking spots
-* Demo Website
-Demonstrates how the parking spots will be created on google maps
-* Ethical Clearance
-Contains copies of documents submitted for ethical clearance
 * Preprocessing
 Contains scripts to aquire and modifies the datasets to allow machine learning, it contains information on how to run each script.
-* Report
-Contains raw data used to create the report
 
 ### Instalation ###
 
