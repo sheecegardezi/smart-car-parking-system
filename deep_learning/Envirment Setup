@@ -1,0 +1,20 @@
+Envirment Setup for Deeplearning
+
+conda install numpy scipy mkl nose sphinx pydot-ng matplotlib
+conda install -c anaconda openblas 
+conda install -f mkl
+
+conda install theano
+
+
+$HOME/.keras/keras.json
+
+
+{
+    "image_data_format": "channels_last",
+    "epsilon": 1e-07,
+    "floatx": "float32",
+    "backend": "theano"
+}
+
+KERAS_BACKEND=theano python -c "from keras import backend"

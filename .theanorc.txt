@@ -1,0 +1,21 @@
+[global] 
+floatX = float32
+device = gpu
+
+# base_compiledir = /local-scratch/jer/theano/
+
+[nvcc]
+fastmath = True
+
+[cuda]
+# Set to where the cuda drivers are installed.
+# You might have to change this depending where your cuda driver/what version is installed.
+# root="C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\"
+
+[lib]
+cnmem = 0.8
+
+[dnn]
+enabled=True
+#include_path=C:\cuda\include
+#library_path=C:\cuda\lib\x64
